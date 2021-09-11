@@ -3,6 +3,6 @@ resource "aws_instance" "sensitive" {
     instance_type = "t2.micro"
 
     tags = {
-        Name = "sensitive"
+        Name = "terraform-cloud"
     }
 }
